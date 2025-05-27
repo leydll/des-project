@@ -2,13 +2,10 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-// load data
-const data = require("../data/data.json");
+app.use(express.static("public"));
 
-// middleware to serve static files
-app.use(express.static("frontend"));
-
-// route to send JSON data
+// API
+const data = require("./data/data.json");
 app.get("/api/data", (req, res) => {
   res.json(data);
 });

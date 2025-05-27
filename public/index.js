@@ -1,8 +1,8 @@
 document.getElementById("fetchButton").addEventListener("click", async () => {
   try {
     const response = await fetch("/api/data");
-    const jsonData = await response.json();
-    displayData(jsonData);
+    const data = await response.json();
+    displayData(data);
   } catch (error) {
     console.error("Error fetching data:", error);
   }

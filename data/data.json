@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "shoes", "price": 100 },
+  { "id": 2, "name": "nintendo switch", "price": 200 },
+  { "id": 3, "name": "polene bag", "price": 300 },
+  { "id": 4, "name": "camera", "price": 400 },
+  { "id": 5, "name": "ipad", "price": 500 },
+  { "id": 6, "name": "iphone", "price": 600 }
+]
